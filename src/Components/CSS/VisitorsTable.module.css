@@ -1,0 +1,66 @@
+.tableBox {
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 2px solid #b2b2b2;
+    border-left: 1px solid #e0e0e0;
+    border-right: 2px solid #e0e0e0;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.removeButton {
+    margin-bottom: 8px !important;
+    margin-left: 70px !important;
+    width: 90px;
+    height: 36px;
+    padding: 6px 16px;
+    border-radius: 4px;
+    margin-top: 15px !important;
+}
+
+.departmentHeader {
+    background-color: #00000014;
+    border-radius: 100px;
+    text-align: center;
+    max-width: fit-content;
+    padding: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.warning {
+    margin-left: 30px;
+}
+
+.placeholderDiv {
+    height: 36px;
+    margin-top: 15px !important;
+}
+
+.NoWarningPlaceHolder {
+    color: white;
+}
+
+@media (min-width: 1196px) {
+    .tableContainer {
+        margin-right: 20px;
+        margin-left: -13px;
+        margin-top: 10px;
+    }
+
+    .visitorManagement {
+        margin-bottom: 10px !important;
+
+    }
+}
+
+@media (max-width: 1195px) {
+    .visitorManagement {
+        font-size: large;
+    }
+
+    .tableContainer {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
