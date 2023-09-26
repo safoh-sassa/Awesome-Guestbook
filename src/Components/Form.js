@@ -15,7 +15,6 @@ import {
     createTheme,
 } from "@mui/material";
 import styles from "./CSS/Form.module.css";
-import formStyles from "./CSS/Form.module.css";
 
 const theme = createTheme({
     palette: {
@@ -127,7 +126,7 @@ const Form = ({ visitors, setVisitors }) => {
     return (
         <ThemeProvider theme={theme}>
             <Box className={styles.formContainer}>
-                <p className={formStyles.formTitle}>
+                <p className={styles.formTitle}>
                     <b>Add new visitor</b>
                 </p>
                 <form onSubmit={handleSubmit}>
